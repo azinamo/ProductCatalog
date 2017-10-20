@@ -6,6 +6,11 @@ Pull this repo and install laravel using composer
 
 composer install
 
-Sql dump is in the root folder called, sql.sql
+To create the database tables
 
+php artisian migrate
+
+To install the products
+
+php artisian db:seed
 
